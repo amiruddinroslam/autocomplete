@@ -9,7 +9,7 @@ const MAP_SETTINGS = {
         lat: 3.166480,
         lng: 101.748344
     },
-    DEFAULT_ZOOM: 14,
+    DEFAULT_ZOOM: 8,
     MARKER_SIZE: 35,
     PIXEL_OFFSET: {
         MARKER: {
