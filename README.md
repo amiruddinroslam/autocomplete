@@ -1,1 +1,1 @@
-# .env file that contains API key attached with the email.
+# .env file that contains API key is attached with the email.
