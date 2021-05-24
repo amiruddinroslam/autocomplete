@@ -1,14 +1,16 @@
 import MapContainer from './components/Map/MapContainer'
-import Demo from './components/Autocomplete/Demo'
-// import AutocompleteSearch from './components/Autocomplete/Autocomplete'
+import Places from './components/Autocomplete/Places'
+// import RecentSearches from './components/Autocomplete/RecentSearches'
 
 function App() {
   return (
     <>
       <div className="autocomplete">
-        <Demo />
-        {/* <AutocompleteSearch /> */}
+        <Places />
       </div>
+      {/* <div className="recent-searched">
+        <RecentSearches />
+      </div> */}
       <MapContainer />
     </>
   );
