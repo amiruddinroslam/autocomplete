@@ -1,6 +1,6 @@
 import MapContainer from './components/Map/MapContainer'
 import Places from './components/Autocomplete/Places'
-// import RecentSearches from './components/Autocomplete/RecentSearches'
+import RecentSearches from './components/Autocomplete/RecentSearches'
 
 function App() {
   return (
@@ -8,9 +8,9 @@ function App() {
       <div className="autocomplete">
         <Places />
       </div>
-      {/* <div className="recent-searched">
+      <div className="recent-searched">
         <RecentSearches />
-      </div> */}
+      </div>
       <MapContainer />
     </>
   );

@@ -12,3 +12,12 @@ body {
     max-width: 500px;
     z-index: 999;
 }
+
+.recent-searched {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
