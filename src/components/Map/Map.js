@@ -6,7 +6,7 @@ import { map } from 'lodash';
 
 const Map = () => {
     const locations = useSelector(state => state.locations.locations)
-    const [latLng, setLatLng] = useState({})
+    const [latLng, setLatLng] = useState(MAP_SETTINGS.DEFAULT_CENTER)
 
     const geocoder = new window.google.maps.Geocoder();
     // const mapRef = useRef()
